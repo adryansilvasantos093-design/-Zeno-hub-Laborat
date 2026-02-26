@@ -6,7 +6,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local VirtualUser = game:GetService("VirtualUser")
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "PhantomHub_V1"
+ScreenGui.Name = "ZenoHub_V1"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.Parent = PlayerGui
 
@@ -34,7 +34,7 @@ UICornerInner.Parent = InnerBtn
 local BtnLabel = Instance.new("TextLabel")
 BtnLabel.Size = UDim2.new(1, 0, 1, 0)
 BtnLabel.BackgroundTransparency = 1
-BtnLabel.Text = "P"
+BtnLabel.Text = "Z"
 BtnLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 BtnLabel.TextSize = 24
 BtnLabel.Font = Enum.Font.SourceSansBold
